@@ -1,0 +1,65 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-bar {
+    background-color:#c5a269; 
+    padding: 0px 20px;
+    text-align: left; 
+    font-family: Arial,sans-serif ;
+    font-size: 18px;
+    color: white
+}
+.bar{
+     text-align: right; 
+}
+
+.top-bar a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px;
+}
+
+.top-bar a:hover {
+    text-decoration: underline; 
+}
+.discover{
+    background-image:url('sidibou.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh ;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding-top: 75px;
+}
+.H1{
+    margin: 0 0 0 0;
+}
+.bouton{
+    background-color: #c5a269;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 10px; 
+    margin-top: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.614);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.bouton:hover{
+    transform: scale(1.05);
+    background-color: #c29e65;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.786);
+    
+}
+.fo{
+    color: white;
+    background-color: #c5a269;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 !important;
+    padding: 15px;
+}
