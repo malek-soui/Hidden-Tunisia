@@ -1,22 +1,72 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="an"></html>
-<html dir=ltr"></html>
-<head> 
-<title>Hidden Tunisia</title>
-<meta charset="UTF-8" />
-<link rel="stylesheet" href="style.css"
+<html dir=ltr"></html><html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Hidden Tunisia</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css"
 </head>
-<body> 
-    <div class="top-bar" style="display: flex ; align-items: center; gap: 10px;" >
-        <h2 style="width: 50%;"><b><em><font face=italique>Hidden Tunisia</font></em></b></h2>
-    <div class="bar" style="width: 50%;">
-        <a href="#">Home</a> | 
-        <a href="#">Explore</a> | 
-        <a href="#">Add Place</a> |
-        <a href="#">contact</a>
+<body>
+    <div class="top-bar" style="display: flex ; align-items: center; gap: 10px;">
+        <h2 style="width: 50%;"><b><em>
+                    <font face=italique>Hidden Tunisia</font>
+                </em></b></h2>
+        <div class="bar" style="width: 50%;">
+            <a href="#" onclick="window.location.href='index.html'">Home</a> |
+            <a href="#" onclick="window.location.href='explorer.html'">Explore</a> |
+            <a href="#" onclick="window.location.href='ajouter.html'">Add Place</a> |
+            <a href="#" onclick="window.location.href='PageContact.html'">contact</a> |
+            <a href="#" onclick="window.location.href='favoris.html'">Favorite</a> |
+            <a href="#" onclick="window.location.href='about.html'">About</a> 
+        </div>
     </div>
+    <h1 style="font-size: 45px; text-align: center; align-self: center;color:#4B3A2F ; margin-top: 70px;"><em>My
+            Favorite Places</em></h1>
+
+    <div style="height: 100vh;" class="box0">
+
+        <div style="margin-top: 70px; height: 70vh; display: flex;">
+            <div class="card" style="height: 50vh;width:45vh; margin-left:150px;">
+                <div id="ph" style="height: 30vh;width:45vh;"></div>
+                <div class="b" style="height: 20vh;width:45vh;">
+                    <h3 style="margin-bottom: 0px;"><em>Takrouna</em></h3>
+                    <button class="bouton bou btn fav-remove" style="padding: 20px 25px;">
+                        <i class="fa-solid fa-heart full"></i>
+                        <i class="fa-regular fa-heart empty"></i>
+                        Remove From Favorite
+                    </button>
+                </div>
+            </div>
+            <div class="card" style="height: 50vh;width:45vh;">
+                <div id="phh" style="height: 30vh;width:45vh;"></div>
+                <div class="b" style="height: 20vh;width:45vh;">
+                    <h3 style="margin-bottom: 0px;">Kélibia</h3>
+                    <button class="bouton bou btn fav-remove" style="padding: 20px 25px;">
+                        <i class="fa-solid fa-heart full"></i>
+                        <i class="fa-regular fa-heart empty"></i>
+                        Remove From Favorite
+                    </button>
+                </div>
+            </div>
+            <div class="card" style="height: 50vh;width:45vh;margin-right: 150px;">
+                <div id="phhh" style="height: 30vh;width:45vh;"></div>
+                <div class="b" style="height: 20vh;width:45vh;">
+                    <h3 style="margin-bottom: 0px;">Dougga</h3>
+
+                    <button class="bouton bou btn fav-remove" style="padding: 20px 25px;">
+                        <i class="fa-solid fa-heart full"></i>
+                        <i class="fa-regular fa-heart empty"></i>
+                        Remove From Favorite
+                    </button>
+
+
+
+                </div>
+            </div>
+        </div>
     </div>
-        <footer class="fo">
+    <footer class="fo">
         <p style="margin :0 0 !important;"><em>© 2026 Hidden Tunisia.</em></p>
     </footer>
 </body>

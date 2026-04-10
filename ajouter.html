@@ -10,13 +10,43 @@
     <div class="top-bar" style="display: flex ; align-items: center; gap: 10px;" >
         <h2 style="width: 50%;"><b><em><font face=italique>Hidden Tunisia</font></em></b></h2>
     <div class="bar" style="width: 50%;">
-        <a href="#">Home</a> | 
-        <a href="#">Explore</a> | 
-        <a href="#">Add Place</a> |
-        <a href="#">contact</a>
+            <a href="#" onclick="window.location.href='index.html'">Home</a> |
+            <a href="#" onclick="window.location.href='explorer.html'">Explore</a> |
+            <a href="#" onclick="window.location.href='ajouter.html'">Add Place</a> |
+            <a href="#" onclick="window.location.href='PageContact.html'">contact</a> |
+            <a href="#" onclick="window.location.href='favoris.html'">Favorite</a> |
+            <a href="#" onclick="window.location.href='about.html'">About</a> 
     </div>
     </div>
-        <footer class="fo">
+    <form class="form">
+            <h1 style="text-align: center; align-self: center;color:#4B3A2F ; margin-top: 70px;"><em>Add New Place</em></h1>
+
+        <input class="input" type="text" placeholder="Name">
+
+        <textarea class="input" placeholder="Description"></textarea>
+
+            <select class="select s2">
+                <option>Destination Area</option>
+                <option>South</option>
+                <option>Sahel</option>
+                <option>Cap Bon</option>
+                <option>North</option>
+            </select>
+            <select class="select s2">
+                <option>Destination Type</option>
+                <option>Viewpoint</option>
+                <option>Nature Spot</option>
+                <option>Historical Site</option>
+                <option>Café</option>
+                <option>Village</option>
+            </select>
+            <input class="boutonUP" type="file">
+            <input style="align-self: center;" class="bouton" type="submit" value="submit">       
+
+
+    </form>
+
+    <footer class="fo">
         <p style="margin :0 0 !important;"><em>© 2026 Hidden Tunisia.</em></p>
     </footer>
 </body>
