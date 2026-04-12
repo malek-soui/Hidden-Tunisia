@@ -326,9 +326,9 @@ body {
         margin: 10px auto !important;
     }
 
-    .photo1[style],
-    .photo2[style],
-    .photo3[style] {
+    .ma>.photo1[style],
+    .ma>.photo2[style],
+    .ma>.photo3[style] {
         height: 40vh !important;
     }
 
