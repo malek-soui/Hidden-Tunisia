@@ -263,33 +263,45 @@ body{
   color: red;
 }
 @media (max-width: 768px) {
-    #ligne {
+    #ligne, .lig {
         width: 90%;
     }
-    .lig {
-        width: 90%;
+    .box0[style], .box0 > div[style], .box0 > form[style] {
+        display: block !important;
+        height: auto !important;
     }
-    .card {
+    .card[style] {
         float: none;
-        width: 90%;
-        margin: 20px auto;
+        width: 90% !important;
+        height: auto !important;
+        margin: 20px auto !important;
+        display: block !important;
+    }
+    .card > div[style] {
+        width: 100% !important;
     }
     .top-bar {
-        text-align: center;
+        flex-direction: column !important;
+        text-align: center !important;
+        padding: 10px 0 !important;
     }
-    .bar {
-        text-align: center;
+    .top-bar h2, .top-bar .bar {
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .top-bar a {
+        display: inline-block;
+        margin: 5px;
     }
     .form {
         margin: 0 auto;
         width: 90%;
         height: auto;
     }
-    .input {
+    .input, .select.s2, .boutonUP {
         width: 100%;
-    }
-    .boutonUP {
-        width: 100%;
+        box-sizing: border-box;
     }
     .discover {
         height: auto;
