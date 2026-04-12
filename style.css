@@ -337,6 +337,11 @@ body {
         height: auto !important;
     }
 
+    .about {
+        height: auto !important;
+        padding-bottom: 50px !important;
+    }
+
     .top-bar {
         flex-direction: column !important;
         text-align: center !important;
